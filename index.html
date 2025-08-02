@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - Josué Solota</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h1>Hello! I'm Josué Solota</h1>
+            <p>a young Angolan passionate about technology, personal and professional development.
+                 I am a university student of dentistry, but I am pursuing a parallel career in 
+                 technology, being self-taught to become a programmer, digital entrepreneur, 
+                 artificial intelligence specialist, and smart home automation expert..</p>
+        </section>
+
+        <section id="skills">
+            <h2>Programming Languages</h2>
+            <ul>
+                <li>python</li>
+                <li>html</li>
+            </ul>
+        </section>
+
+        <section id="education">
+            <h2>Academic Background</h2>
+            <p>I attended high school at Celeu Catolico in Huambo and completed some professional 
+                training courses in Electricity, IT, computer networks, and English. I am currently 
+                in my second year of university, studying Dentistry.</p>
+            <a href="assets/cv/your-cv.pdf" download="CV_[Your_Name].pdf" class="cv-button">Download My CV</a>
+        </section>
+        
+        <section id="interests">
+            <h2>Interests</h2>
+            <p>Health and Well-being
+Naturally, as I am training in the health field, I enjoy good practices aimed at preserving health
+ and sustainable development by applying technology to facilitate this process and life itself.
+
+Automation and IoT
+I love the idea of using technologies (like Artificial Intelligence, Arduino, etc.) to automate 
+tasks so we have more time for other activities, to spend more time with family, and to get enough 
+rest, thus preserving health. Controlling the environment via phone and remotely also attracts me a lot!
+
+Web Programming
+Projects like financial trading applications, online stores, and corporate LMS (Learning Management System) 
+software are very good, and I would also like to work in this area!</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-card">
+                <h3>Project Name 1</h3>
+                <p>A brief description of your project.</p>
+                <a href="[link to your project]" target="_blank">View Project</a>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Feel free to get in touch!</p>
+            <form action="[use a service like Formspree.io]" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Josué Solota. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
